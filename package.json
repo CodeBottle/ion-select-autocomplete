@@ -1,6 +1,6 @@
 {
   "name": "ion-select-autocomplete",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Multi & Single Select Box for ionic app",
   "main": "ion-select-autocomplete.js",
   "scripts": {

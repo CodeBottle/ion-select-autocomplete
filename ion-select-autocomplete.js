@@ -12,7 +12,7 @@ angular.module('ion-select-autocomplete', [])
         options: '=',
         output: '='
       },
-      template: "<input type='text' value='{{displayVal}}'/>",
+      template: "<input type='text' ng-model='displayVal'/>",
       link: function($scope, element, attrs, ctrl, transclude) {
 
         $scope.header = attrs.label;
