@@ -6,12 +6,13 @@ angular.module('ion-select-autocomplete', [])
     return {
       restrict: 'AE',
       transclude: true,
+      replace: true,
       scope: {
         multiselect: '=',
         options: '=',
         output: '='
       },
-      template: "<input ng-hide='true' type='text' readonly='readonly' /><span>{{displayVal}}</span>",
+      template: "<input type='text' value='{{displayVal}}'/>",
       link: function($scope, element, attrs, ctrl, transclude) {
 
         $scope.header = attrs.label;
