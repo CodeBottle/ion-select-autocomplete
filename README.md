@@ -10,7 +10,7 @@ Require file
 ```
 In JS
 ```javascript
-$scope.options = [
+$scope.optionList = [
   {
     label: 'India',
     value: 'IND'
