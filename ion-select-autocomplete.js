@@ -1,4 +1,4 @@
-angular.module('ion-select-autocomplete')
+angular.module('ion-select-autocomplete', [])
 
 .directive('ionSelectAutocomplete', [
   '$ionicModal',
