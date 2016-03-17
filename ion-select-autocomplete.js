@@ -70,6 +70,7 @@ angular.module('ion-select-autocomplete', [])
 ])
 
 .run([
+  '$templateCache',
   function($templateCache) {
       var begin = "<ion-modal-view>" +
         "<ion-header-bar class='bar-dark'>" +
