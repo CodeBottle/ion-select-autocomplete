@@ -1,0 +1,23 @@
+{
+  "name": "ion-select-autocomplete",
+  "authors": [
+    "Umar Siddiqui <umar@treeni.com>"
+  ],
+  "description": "Multi & Single Select Box for ionic app",
+  "main": "ion-select-autocomplete.js",
+  "moduleType": [],
+  "keywords": [
+    "ionic",
+    "select",
+    "autocomplete"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
